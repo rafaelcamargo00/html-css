@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cornflowerblue;
+            margin: 0px;
+
+        }
+
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 15px;
+        }
+
+        h1 {
+            box-shadow: inset 5px 3px 7px 1px rgba(0, 0, 0, 0.692);;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.192);
+
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            margin: 0px;
+            text-align: center;
+            padding: 1px;
+        }
+
+        article{
+
+        background-color: lightgrey;
+        }
+
+        article > aside { 
+            background-color: rgba(100, 148, 237, 0.486);
+            color: white;
+           
+        }
+
+        nav {
+            background-color: rgba(14, 14, 110, 0.377);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.363);
+            
+        }
+        
+        nav > a {
+            text-decoration: none;
+            color: rgba(23, 23, 175, 0.582);
+            font-weight: bold;
+            margin-right: 30px;
+            
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        </style>
+</head>
+<body>
+    <header>
+        <h1>
+            MEU SITE SOBRE O MUNDO DA MUSICA ELETRONICA
+        </h1>
+        <nav>
+            <a href="https://portalpopline.com.br/vintage-is-a-festival-vintage-culture-anuncia-festival-itinerante-pelo-brasi">VINTAGE</a>
+            <a href="https://victorloumusic.com/noticia/clroxoaad7n050bivomn8d7ov">VICTOR LOU</a>
+            <a href="https://eletrovibez.com/dj/meca/">MECA</a>
+            <a href="https://playbpm.com.br/noticias/dubdogz-anuncia-retorno-do-ruback-na-stb/">RUBACK</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+            <p>Noticias</p>
+         <section id="noticias">
+            <article>
+                <h2>NOTICIA SOBRE VINTAGE CULTURE</h2>
+                <p>E se um dos maiores DJs de música eletrônica do mundo tivesse um festival só dele?! Foi isso o que Vintage Culture pensou ao criar o projeto “Vintage Is A Culture”, um festival itinerante que agitará 5 capitais brasileiras em 2023. Brasília, Rio de Janeiro, Porto Alegre, Belo Horizonte e São Paulo foram as cidades escolhidas para receber o evento, que promete ser uma mega experiência…</p>
+                <aside>
+                    <p>NOTICIAS DESENVOLVIDAS POR RAFAEL</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por RAFIZE MUSIC</p>
+    </footer>
+</body>
+</html>
